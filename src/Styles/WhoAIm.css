@@ -1,0 +1,36 @@
+
+*{
+    font-family: 'Amaranth', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Varela Round', sans-serif;
+    
+    color: #fff;
+}
+.whoami {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whoami {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whoami p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 3.5px;
+    line-height: 25px;
+    text-align: justify;
+    transition: 0.5s;
+}
+.whoami p:hover {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 2.5px;
+    transition: 0.5s;
+}

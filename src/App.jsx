@@ -1,14 +1,13 @@
 import React from 'react'
-import './App.css'
+import Home from './Pages/Home'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>owo</h1>
-      </div>
 
+      <Home/>
+    
     </>
   )
 }

@@ -1,0 +1,41 @@
+#banner {
+    position: relative;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 65vh;
+    overflow: hidden;
+    border-bottom: solid 10px var(--yellow);
+    box-shadow: 0px 0px 100px var(--yellow);
+}
+#banner * {
+    color: #000;
+
+}
+
+#banner h1 {
+    font-size: 50px;
+}
+.scrolled{
+    margin-top: 4.5vw;
+}
+.bgBanner {
+    z-index: -1;
+    position: absolute;
+    min-width: 100vw;
+    right: 0%;
+    top: 0px;
+}
+.pfp {
+    box-shadow: 0px 0px 30px var(--orange);
+    height: 80%;
+    border-radius: 50%;
+    margin: 0px 30px;
+    transition: 0.5s;
+}
+.pfp:hover {
+    transform: scale(110%);
+    box-shadow: 0px 0px 50px var(--orange);
+    transition: 0.5s;
+}

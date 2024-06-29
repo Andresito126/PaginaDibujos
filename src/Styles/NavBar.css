@@ -1,0 +1,116 @@
+.navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #EABB55;
+    z-index: 10;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: end;
+}
+
+.navbar ul li {
+    min-width: 5%;
+    max-width: 20%;
+    margin: 0px 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.navbar a {
+    font-size: 15px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+.navbarFixed {
+    position:fixed;
+    z-index:1000;
+    top: -7%;
+    width:100%;
+    transition: 0.5s;
+}
+.navbarFixed:hover,
+.navbarFixed:hover .loginBtn{
+    top: 0%;
+    transition: 0.5s;
+}
+.navbarFixed:hover .loginBtn {
+    top: 0%;
+    background-color: var(--black);
+    transform: scale(110%);
+    transition: 0.3s;
+}
+.navbarFixed:hover .loginScrolled a,
+.navbarFixed:hover .loginScrolled a:hover {
+    color: var(--yellow);
+}
+
+#homebtn {
+    margin: 16px;
+    min-width: 5%;
+    font-weight: bold;
+}
+.loginBtn {
+    border-radius: 20px;
+    padding: 15px;
+    background-color: var(--black);
+    transition: 0.3s;
+}
+.loginBtn a {
+    color: var(--yellow);
+}
+.loginBtn:hover {
+    transform: scale(110%);
+    transition: 0.3s;
+    color: #fff;
+}
+.loginBtn:hover a {
+    border-bottom: #fff solid 3px;
+    color: #fff;
+}
+    .loginScrolled {
+        position: relative;
+        top: 100%;
+        border-radius: 20px;
+        padding: 15px;
+        background-color: var(--yellow);
+        box-shadow: 0px 0px 20px var(--yellow);
+        transition: 0.3s;
+    }
+    .loginScrolled a {
+        color: var(--black);
+        font-weight: bolder;
+    }
+    .loginScrolled:hover {
+        top: 0%;
+        background-color: var(--black);
+        transform: scale(110%);
+        transition: 0.3s;
+    }
+    .loginScrolled:hover a,
+    .loginScrolled:hover a:hover {
+        color: var(--yellow);
+    }
+
+
+#navbar a:hover,
+#homebtn:hover {
+    transform: scale(110%);
+    border-bottom: #fff solid 3px;
+    color: #fff;
+    transition: 0.3s;
+}
