@@ -1,0 +1,7 @@
+.info-and-comments {
+    height: 130vh;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+} 
