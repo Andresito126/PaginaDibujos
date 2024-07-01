@@ -1,0 +1,69 @@
+
+.formComment {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    height: 80%;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    background: rgba(234, 187, 85, 0.5); 
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.formComment textarea {
+    resize: none;
+    position: relative;
+    height: 70%;
+    width: 80%;
+    font-size: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 20px;
+}
+.formComment textarea::placeholder {
+    color:  rgba(255, 255, 255, 0.7);
+}
+.formComment textarea:focus {
+    background-color: var(--white);
+    color: var(--black);
+    outline: none;
+    border-color: var(--yellow);
+}
+.closeBtn {
+    position: absolute;
+    background: none;
+    border: none;
+    z-index: 1000;
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    right: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.btnSubmit {
+    padding: 12px;
+    font-size: 18px;
+    width: 20%; 
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(236, 224, 224);
+    color: var(--black);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formComment button:hover {
+    background-color: var(--orange);
+}

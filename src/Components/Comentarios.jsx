@@ -6,14 +6,14 @@ function Comentarios(props){
     let comments = props.comments.map((comment) => (
         <Comentario 
             pfp = {comment.pfp}
-            name = {comment.name}
-            contenido = {comment.content}
+            name = {comment.nick}
+            contenido = {comment.comment}
         />
     ))
 
     return (
         <div className="comments-container">
-            <h1>Comentarios</h1>
+            <h1 className="encabezado">Comentarios</h1>
             <ul>
                 {comments}
             </ul>

@@ -2,4 +2,18 @@
     background: none;
     border: none;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.button-Icon p {
+    margin: 0%;
+    padding: 0px 10px;
+}
+
+.button-Icon:hover {
+    background-color: rgb(255, 255, 255, 0.2);
 }

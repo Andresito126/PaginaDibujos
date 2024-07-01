@@ -1,5 +1,9 @@
+.encabezado {
+    font-size: 30px;
+}
+
 .info-and-comments {
-    height: 130vh;
+    max-height: 115vh;
     display: flex;
     flex-direction: row;
     align-items: start;

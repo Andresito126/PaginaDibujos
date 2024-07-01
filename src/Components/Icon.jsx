@@ -1,13 +1,17 @@
 import React from "react";
-import { FaRegHeart } from "react-icons/fa";
-import { FaRegComment } from "react-icons/fa";
+import { FaRegHeart, FaHeart, FaRegComment } from "react-icons/fa";
 
 
 function Icon (props){
    if(props.isLike){
-       return(
-           <FaRegHeart />
-       )
+        if(props.liked === true){
+            return(
+                <FaHeart />
+            )
+        }
+        return(
+            <FaRegHeart />
+        )
    }
    return(
        <FaRegComment />

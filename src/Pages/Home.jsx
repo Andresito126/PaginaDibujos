@@ -10,7 +10,7 @@ import InfoDraw from "./InfoDraw";
 export default function Home() {
   return (
     <>
-      {/*
+      
         <NavBar></NavBar>
         <Header></Header>
         <section className="main">
@@ -18,9 +18,7 @@ export default function Home() {
           <Draws></Draws>
           <Recommendations></Recommendations>
         </section>
-          <Footer></Footer> */
-      }
-      <InfoDraw></InfoDraw>
+          <Footer></Footer> 
     </>
   );
 }
