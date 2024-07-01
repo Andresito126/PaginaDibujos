@@ -15,32 +15,3 @@
     scrollbar-width: 0;
     scroll-behavior: smooth;
 }
-.recom {
-    position: relative;
-    width: 18vw;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-}
-.recom img {
-    width: 100%;
-    border-radius: 50%;
-}
-.recom p {
-    margin: 5px;
-}
-.recom a {
-    text-decoration: underline solid #fff;
-}
-.recom:hover {
-    filter: brightness(65%);
-    transition: 0.3s;
-}
-.recom a:hover {
-    color: var(--orange);
-    text-decoration: underline solid var(--orange);
-    transition: 0.3s;
-}

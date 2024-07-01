@@ -1,4 +1,5 @@
 #banner {
+    top: 5vh;
     position: relative;
     box-sizing: content-box;
     display: flex;

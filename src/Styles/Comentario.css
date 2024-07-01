@@ -1,0 +1,26 @@
+.comment-container {
+    position: relative;
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    list-style: none;
+    border: solid 2px var(--yellow);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 6px;
+}
+
+.comment-container img {
+    height: 80%;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info-comment {
+    width: 80%;
+}
+.info-comment h3 {
+    text-align: left;
+}

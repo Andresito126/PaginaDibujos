@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/WhoAIm.css";
+import "../../Styles/WhoAIm.css";
 
 export default function WhoAIm() {
   return (

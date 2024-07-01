@@ -1,0 +1,11 @@
+.encabezado {
+    font-size: 30px;
+}
+
+.info-and-comments {
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+} 
