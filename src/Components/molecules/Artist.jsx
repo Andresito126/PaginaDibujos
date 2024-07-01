@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Artist.css"
+import "../../Styles/Artist.css"
 
 function Artist(props){
     return(

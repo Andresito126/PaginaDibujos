@@ -1,11 +1,10 @@
 import React from "react";
-import NavBar from "../Components/NavBar";
-import Header from "../Components/Header";
-import WhoAIm from "../Components/WhoAIm";
-import Draws from "../Components/Draws";
-import Recommendations from "../Components/Recommendations";
-import Footer from "../Components/Footer";
-import InfoDraw from "./InfoDraw";
+import NavBar from "../organisms/NavBar"
+import Header from "../organisms/Header";
+import WhoAIm from "../molecules/WhoAIm";
+import Draws from "../organisms/Draws";
+import Recommendations from "../organisms/Recommendations";
+import Footer from "../organisms/Footer";
 
 export default function Home() {
   return (

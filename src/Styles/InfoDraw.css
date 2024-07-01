@@ -3,7 +3,7 @@
 }
 
 .info-and-comments {
-    max-height: 115vh;
+    height: 120vh;
     display: flex;
     flex-direction: row;
     align-items: start;

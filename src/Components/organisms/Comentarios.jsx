@@ -1,6 +1,6 @@
 import React from "react";
-import Comentario from "./Comentario";
-import "../Styles/Comentarios.css"
+import Comentario from "../molecules/Comentario";
+import "../../Styles/Comentarios.css"
 
 function Comentarios(props){
     let comments = props.comments.map((comment) => (

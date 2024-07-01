@@ -1,7 +1,7 @@
 import React from "react";
-import recomes from "../data/recomes";
-import Artist from "./Artist";
-import "../Styles/Recommendations.css";
+import recomes from "../../data/recomes";
+import Artist from "../molecules/Artist"
+import "../../Styles/Recommendations.css";
 
 export default function Recommendations(){
     const listRecomes = recomes.map((artist, index) => (

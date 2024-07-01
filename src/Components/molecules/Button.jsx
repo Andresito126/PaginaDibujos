@@ -1,6 +1,6 @@
 import React from "react";
-import Icon from "./Icon";
-import "../Styles/Button.css"
+import Icon from "../atoms/Icon";
+import "../../Styles/Button.css"
 
 function Button(props){
     return (

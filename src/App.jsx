@@ -1,6 +1,5 @@
 import React from 'react';
-import Home from './Pages/Home'
-import drawList from './data/drawList'
+import Home from "./Components/Pages/Home"
 
 function App() {
 

@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "./Button";
-import "../Styles/Obra.css"
+import Button from "../molecules/Button";
+import "../../Styles/Obra.css"
 
 function Obra (props) {
     return (

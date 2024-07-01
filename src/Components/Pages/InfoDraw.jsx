@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Obra from "../Components/Obra";
-import Comentarios from "../Components/Comentarios";
-import Footer from "../Components/Footer";
-import "../Styles/InfoDraw.css"
+import Obra from "../organisms/Obra"; 
+import Comentarios from "../organisms/Comentarios";
+import Footer from "../organisms/Footer";
+import "../../Styles/InfoDraw.css"
 
 function InfoDraw (){
   let dibujo= JSON.parse(localStorage.getItem('draws'))[localStorage.getItem('indexDraw')]

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import "../Styles/Draws.css";
-import drawList from "../data/drawList";
-import Draw from "./Draw";
+import "../../Styles/Draws.css";
+import drawList from "../../data/drawList";
+import Draw from "../molecules/Draw"
 
 export default function Draws (){
     const [listaDibujos, setlistaDibujos] = useState(drawList);
